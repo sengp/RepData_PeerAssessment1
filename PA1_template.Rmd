@@ -24,7 +24,7 @@ The variables included in this dataset are:
 
 ## Load and Preprocess Activity Monitoring Data
 ```{r}
-unzip(zipfile = "activity.zip")
+unzip(zipfile = "repdata_data_activity.zip")
 Activity <- read.csv("activity.csv", header = TRUE)
 ```
 
